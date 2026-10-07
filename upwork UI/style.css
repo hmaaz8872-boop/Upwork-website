@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    height: 66px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #181818;
+    margin-right: 35px;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.menu span {
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+/* Right Menu */
+.right-menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.login {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.signup {
+    text-decoration: none;
+    background-color: #108a00;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hover */
+.menu a:hover,
+.login:hover {
+    color: #108a00;
+}
+
+.signup:hover {
+    background-color: #0b7000;
+}
+
+.card > p{
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.card > p > a{
+    margin-left: 60%;
+} 
+
+h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+     margin-left: 50px;
+     margin-top: 10px;
+}
+
+p{
+     margin-left: 50px;
+     margin-top: 30px;
+}
+
+button{
+    padding: 10px;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+}
+
+input{
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+#para{
+    text-align: center;
+}
+
+#companies{
+    display: flex;
+}
+
+h3{
+    margin-left: 50px;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+/* All cards */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 26px;
+    padding: 8px 0;
+}
+
+/* Single card */
+.card {
+    height: 164px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 22px 15px;
+    background-color: white;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Icons */
+.icon {
+    font-size: 38px;
+    color: #14a800;
+}
+
+/* Card heading */
+.card h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #222;
+    line-height: 1.4;
+}
+
+/* Hover effect */
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+    transform: translateY(-2px);
+}
+
+/* ============================= */
+/* HOW IT WORKS SECTION ONLY */
+/* ============================= */
+
+.maaz-how-it-works {
+    padding: 20px 6px;
+    background-color: white;
+}
+
+.maaz-how-it-works .maaz-how-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.maaz-how-it-works .maaz-how-top h1 {
+    font-size: 34px;
+    font-weight: normal;
+    color: #222;
+    margin: 0;
+}
+
+.maaz-how-it-works .maaz-how-buttons {
+    display: flex;
+    border: 1px solid #999;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.maaz-how-it-works .maaz-how-buttons button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #222;
+}
+
+.maaz-how-it-works .maaz-how-buttons .maaz-active {
+    border: 2px solid #222;
+    border-radius: 25px;
+}
+
+.maaz-how-it-works .maaz-how-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.maaz-how-it-works .maaz-how-card {
+    width: 33.33%;
+}
+
+.maaz-how-it-works .maaz-how-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+
+.maaz-how-it-works .maaz-how-card h2 {
+    margin: 20px 0 0 8px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #222;
+}
